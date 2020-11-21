@@ -154,3 +154,30 @@ footer {background: #2F303A;} /* ВРЕМЕННО */
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+/* ======== PORTFOLIO ========== */
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-text-color);
+    color: var(--reserve-text-color);
+}
+.examples-list-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.examples-list-item-description {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
