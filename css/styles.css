@@ -2,6 +2,7 @@
     --primary-text-color:#212121;
     --secondary-text-color:#757575;
     --accent-text-color:#2196F3;
+    --reserve-text-color: #FFFFFF;
     --primary-font-family: "Roboto", sans-serif;
     --secondary-font-family: "Raleway", sans-serif;
 
@@ -43,7 +44,7 @@ address {
   .accent-logo-color {
       color: var(--accent-text-color);
   }
-  .nav-menu-item-link{
+  .nav-menu-item-link {
       font-weight: 500;
       font-size: 14px;
       line-height: 1.14;
@@ -53,16 +54,103 @@ address {
   .nav-menu-item-link:hover,
   .nav-menu-item-link:focus,
   .contact-item-link:hover,
-  .contact-item-link:focus{
+  .contact-item-link:focus {
     color: var(--accent-text-color);
 }
 .current {
     color: var(--accent-text-color);
 }
-.contact-item-link{
+.contact-item-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
+}
+/* =========== HERO ==========*/
+.hero {background-color: #2F303A;}  /*ВРЕМЕННЫЙ ФОН*/
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--reserve-text-color);
+}
+.hero-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--reserve-text-color);
+    background-color: var(--accent-text-color);
+}
+/* ========= ADVANTAGES ======== */
+.advantage-list-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    }
+.advantage-list-item-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+/*  ========SERVICES======== */
+.services-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+/* ======= TEAM ======= */
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.worker-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.worker-position{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+/* ====== FOOTER ======== */
+footer {background: #2F303A;} /* ВРЕМЕННО */
+.logo-white {
+    color: var(--reserve-text-color);
+}
+.location {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--reserve-text-color);
+}
+.main-contact-tel, .main-contact-email {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
