@@ -5,7 +5,15 @@
     --reserve-text-color: #FFFFFF;
     --primary-font-family: "Roboto", sans-serif;
     --secondary-font-family: "Raleway", sans-serif;
-
+}
+html {
+    box-sizing: border-box;
+    
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 body {
     font-family: var(--primary-font-family);
@@ -13,6 +21,7 @@ body {
 ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -34,6 +43,7 @@ address {
     overflow: hidden;
   }
   /* ========== HEADER ==========*/
+  }
   .logo {
       font-family: var(--secondary-font-family);
       color:#000000;
@@ -78,6 +88,7 @@ address {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--reserve-text-color);
+    margin: 0;
 }
 .hero-btn {
     font-weight: 700;
